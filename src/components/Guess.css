@@ -1,0 +1,32 @@
+
+
+.form {
+  display: flex;
+  align-items: center;
+}
+
+.form-input, 
+.form-btn {
+  height: 36px;
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.form-btn {
+  background-color: #C4C4C4;
+  border: none;
+  width: 139px;
+  margin-left: 14px;
+  height: 34px;
+}
+
+.form-input {
+  width: 283px;
+  outline: none;
+  padding: 0;
+  border: none;
+  height: 36px;
+}
+

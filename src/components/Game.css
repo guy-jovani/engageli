@@ -1,0 +1,60 @@
+.Game {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  top: 20vh;
+  align-items: center;
+  background-color: #e5e5e5;
+  justify-content: center;
+}
+
+h2 {
+  margin: 0;
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  grid-row: span 2;
+}
+
+.game-options {
+  display: flex;
+  flex-direction: column;
+  height: 234px;
+  margin-left: 20px;
+}
+
+.choose-game {
+  display: flex;
+  margin-bottom: 31px;
+  border: none;
+}
+
+.reset {
+  margin-left: 14px;
+  width: 139px;
+  height: 34px;
+  background-color: #c4c4c4;
+  border: none;
+
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.guesses {
+  display: flex;
+  flex-direction: column;
+
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+}
