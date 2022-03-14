@@ -36,7 +36,7 @@ const Game: React.FC = () => {
         indices.forEach((ind) => (prevGuess[ind] = letter));
         if (prevGuess.join('') === word) {
           alert('you won the game');
-          document.title = 'win';
+          document.title = 'win'; 
           onResetHandler();
         }
         return prevGuess;
